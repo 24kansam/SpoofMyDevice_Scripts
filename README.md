@@ -1,6 +1,6 @@
 # SpoofMyDevice Scripts
 
-Host helper scripts for [SpoofMyDevice](https://github.com/BuSung-dev/SpoofMyDevice)'s Import Personal AVD Profile feature.
+Host helper scripts for [BuSung-dev/SpoofMyDevice](https://github.com/BuSung-dev/SpoofMyDevice)'s Import Personal AVD Profile feature.
 
 These scripts extract hardware identifiers, build properties, and screen metrics from an Android source device or emulator via ADB. The extracted configuration can be transmitted directly to an active SpoofMyDevice instance via an Android broadcast or exported locally as a JSON file.
 
