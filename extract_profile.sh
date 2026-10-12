@@ -2,7 +2,7 @@
 # macOS/Linux equivalent of extract_profile.bat. Requires adb on PATH.
 # Usage: bash extract_profile.sh [> profile.json]
 set -euo pipefail
-ACTION=com.spoofmydevice.ACTION_SEND_CONFIG
+ACTION=com.spoofmydevice.action.IMPORT_PROFILE
 RECEIVER_PACKAGE=com.spoofmydevice
 SKIP_PAUSE=false
 log() { printf '[%s] %s\n' "$(date '+%H:%M:%S')" "$*" >&2; }
