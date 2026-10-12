@@ -6,7 +6,7 @@ powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "try { $sourc
 exit /b %errorlevel%
 # POWERSHELL_PAYLOAD
 $ErrorActionPreference = 'Stop'
-$action = 'com.spoofmydevice.ACTION_SEND_CONFIG'
+$action = 'com.spoofmydevice.action.IMPORT_PROFILE'
 $receiverPackage = 'com.spoofmydevice'
 $skipPause = $false
 $exitCode = 1
